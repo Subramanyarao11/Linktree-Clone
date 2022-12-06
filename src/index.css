@@ -35,6 +35,10 @@ a{
     cursor: pointer;
 }
 
+.share-btn:hover{
+    transform: scale(1.02);
+}
+
 .share-btn svg {
     margin-left: 12px;
     margin-top: 10px;
@@ -74,6 +78,11 @@ a{
     justify-content: space-between;
 }
 
+.tile:hover {
+    transition: cubic-bezier(.07 , 1.41 , .82 , 1.41) 0.2s;
+    transform: scale(1.02);
+}
+
 
 .tile-share-btn {
     margin: 8px;
@@ -88,8 +97,16 @@ a{
     margin-top: 10px;
 }
 
+
 .icon {
     margin: 4px 8px;
     width: 44px;
     height: 44px;
+}
+
+
+/* Toast Styles */
+
+.toast-message {
+    background-color: #1e293b;
 }

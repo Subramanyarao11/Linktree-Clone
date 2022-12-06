@@ -6,7 +6,7 @@ import './App.css'
 const siteProps = {
     name: "Subramanya_rao",
     email: "subramanya11rao@gmail.com",
-    gitHub: "Subramanyarao11",
+    github: "Subramanyarao11",
     linkedIn: "subramanya-m-rao-67b935213",
     instagram: "ig_subramnya11",
     twitter: "Subramanya11rao",
